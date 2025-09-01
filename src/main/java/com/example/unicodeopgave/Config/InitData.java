@@ -23,7 +23,6 @@ public class InitData implements CommandLineRunner {
         saveUnicodeChars(chars);
     }
 
-    // Metoden som gemmer alle karakterer i databasen
     public void saveUnicodeChars(Set<Character> chars) {
         for (Character c : chars) {
             Unicode u = new Unicode(
